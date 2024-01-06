@@ -1,0 +1,31 @@
+class Solution {
+public:
+    int dp[101][101];
+    int sum[101];
+    int stoneGameII(vector<int>& piles) {
+
+        if(piles.size() == 0) return 0;
+        if(piles.size() == 1) return piles[0];
+
+        for(int i = piles.size()-1 ; i >= 0 ; i --){
+            sum[i] = sum[i+1] + piles[i];
+            dp[i][piles.size()-1] = sum[i];
+        }
+
+        int res = 0;
+        for(int i = piles.size()-1 ; i >= 0 ; i --){
+            for(int M = 1 ; M < piles.size() ; M ++){
+                // dp[i][M] = piles[i];
+                int upperBound = min(2*M, int(piles.size())-i);
+                for(int x = 1 ; x <= upperBound ; x ++){
+                    dp[i][M] = max(
+                        dp[i][M],
+                        ((sum[i]) - dp[i+x][max(x, M)])
+                    );
+                }
+            }
+        }
+
+        return dp[0][1];
+    }
+};
