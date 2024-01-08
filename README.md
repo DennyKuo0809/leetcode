@@ -4,6 +4,8 @@
    * 28 Find the Index of the First Occurrence in a String
 * Boyer–Moore majority vote algorithm
    * 229 Majority Element II
+* Record in-place
+  * 41 First Missing Positive
 
 ### Link List
 * Fast slow pointer
