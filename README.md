@@ -13,6 +13,11 @@
 ### Graph
 * Euler Path / Cycle
   * 332. Reconstruct Itinerary
+* Topological Order
+  * 210 Course Schedule II
+* Cycle detection
+ * 207 Course Schedule
+
 
 ### DP
 * Backpack Problem (select / not select)
