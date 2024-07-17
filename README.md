@@ -6,6 +6,8 @@
    * 229 Majority Element II
 * Record in-place
   * 41 First Missing Positive
+* Two Pointers
+  * 42 Trapping Rain Water
 
 ### Link List
 * Fast slow pointer
