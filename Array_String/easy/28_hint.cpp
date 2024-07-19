@@ -1,5 +1,14 @@
 /* KMP algorithm */
+/* 
+ * Find a certain pattern in a string.
+ * Construct a failure function (array) for the pattern.
+ * failure[i] means there exists a longest prefix of the pattern
+ * which ends at index failure[i] matchs pattern[(i-failure[i]):(i+1)].
+*/
 
+
+
+    
 class Solution {
 public:
     int failure[10001];
