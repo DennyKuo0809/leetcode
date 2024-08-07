@@ -33,6 +33,34 @@ sort(
   [&](const A& a, const A& b) {return a > b}
 );
 ```
+
+### lambda comparing function for the priority queue
+```
+auto comp = [&](ListNode* a, ListNode* b){return (a->val) > (b->val);};
+priority_queue<ListNode*, vector<ListNode*>, decltype(comp)> pq(comp);
+```
+priority queue template
+* `ListNode*`: Type of elements
+* `vector<ListNode*>`: Type of container
+* `decltype(comp)`: Type of comparing function. Use `decltype` to know the type of comparing function.
+
+priority queue constructor
+* `pq(comp)`: comp, the comparing function as the parameter of the constructor of the priority queue.
+
+### constructor in structures
+```
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+```
+
 ### `upper_bound`, `lower_bound`
 ```
 auto it = upper_bound(vec.begin(), vec.end(), element);
