@@ -84,4 +84,10 @@ while(std::getline(test, segment, '_'))
 }
 ```
 
+## C cheat sheet
+### malloc
+* Remember the typecast
+```
+struct ListNode* ptr = (struct ListNode *)malloc(sizeof(struct ListNode));
+```
 
