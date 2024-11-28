@@ -12,6 +12,8 @@
 ### Linked List
 * Fast slow pointer
   * 109. Convert Sorted List to Binary Search Tree
+  * 141. Linked List Cycle
+  * 142. Linked List Cycle II
 
 ### Graph
 * Euler Path / Cycle
