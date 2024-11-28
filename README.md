@@ -9,8 +9,9 @@
 * Two Pointers
   * 42 Trapping Rain Water
 
-### Link List
+### Linked List
 * Fast slow pointer
+  * 109. Convert Sorted List to Binary Search Tree
 
 ### Graph
 * Euler Path / Cycle
