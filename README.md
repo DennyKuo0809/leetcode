@@ -15,6 +15,8 @@
   * 141. Linked List Cycle
   * 142. Linked List Cycle II
   * 234. Palindrome Linked List
+* Reservoir sampling
+  * 382. Linked List Random Node 
 
 ### Graph
 * Euler Path / Cycle
