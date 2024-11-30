@@ -29,6 +29,8 @@
   * 538. Convert BST to Greater Tree
   * 653. Two Sum IV - Input is a BST (Stack + Inorder Traversal)
   * 897. Increasing Order Search Tree
+* Pre-Order Traversal
+  * 1008. Construct Binary Search Tree from Preorder Traversal 
      
 ### Graph
 * Euler Path / Cycle
