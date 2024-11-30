@@ -28,6 +28,7 @@
   * 530. Minimum Absolute Difference in BST
   * 538. Convert BST to Greater Tree
   * 653. Two Sum IV - Input is a BST (Stack + Inorder Traversal)
+  * 897. Increasing Order Search Tree
      
 ### Graph
 * Euler Path / Cycle
