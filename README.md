@@ -29,6 +29,7 @@
   * 538. Convert BST to Greater Tree
   * 653. Two Sum IV - Input is a BST (Stack + Inorder Traversal)
   * 897. Increasing Order Search Tree
+  * 1382. Balance a Binary Search Tree
 * Pre-Order Traversal
   * 449. Serialize and Deserialize BST
   * 1008. Construct Binary Search Tree from Preorder Traversal 
