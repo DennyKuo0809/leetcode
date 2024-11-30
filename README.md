@@ -16,8 +16,12 @@
   * 142. Linked List Cycle II
   * 234. Palindrome Linked List
 * Reservoir sampling
-  * 382. Linked List Random Node 
+  * 382. Linked List Random Node
 
+### Binary Search Tree
+* Using stack to find the next element
+  * 173. Binary Search Tree Iterator
+     
 ### Graph
 * Euler Path / Cycle
   * 332. Reconstruct Itinerary
