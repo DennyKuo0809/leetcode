@@ -24,7 +24,8 @@
 * Lowest Common Ancestor (LCA)
   * 235. Lowest Common Ancestor of a Binary Search Tree
 * In-Order Traversal
-  * 501. Find Mode in Binary Search Tree 
+  * 501. Find Mode in Binary Search Tree
+  * 530. Minimum Absolute Difference in BST
      
 ### Graph
 * Euler Path / Cycle
