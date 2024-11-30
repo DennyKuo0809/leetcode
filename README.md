@@ -26,6 +26,7 @@
 * In-Order Traversal
   * 501. Find Mode in Binary Search Tree
   * 530. Minimum Absolute Difference in BST
+  * 538. Convert BST to Greater Tree
      
 ### Graph
 * Euler Path / Cycle
