@@ -113,3 +113,10 @@ while(std::getline(test, segment, '_'))
 struct ListNode* ptr = (struct ListNode *)malloc(sizeof(struct ListNode));
 ```
 
+### strlen
+```
+char *a;
+int len_a = strlen(a);
+/* a[len_a] = '\0' */
+```
+
