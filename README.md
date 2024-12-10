@@ -117,6 +117,6 @@ struct ListNode* ptr = (struct ListNode *)malloc(sizeof(struct ListNode));
 ```
 char *a;
 int len_a = strlen(a);
-/* a[len_a] = '\0' */
+/* a[len_a] is '\0' */
 ```
 
